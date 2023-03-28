@@ -8,14 +8,14 @@ export default function NavTabs({ currentPage, handlePageChange }) {
       <a className="navbar-brand" href="#">Olubukola</a>
       
       <div className="collapse navbar-collapse" id="navbarText">
-        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul className="nav nav-pills ms-auto">
           <li className="nav-item">
             
             <a href='#aboutme' onClick={() => handlePageChange('About Me')}
             className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'} >About Me</a>
           </li>
           <li className="nav-item">
-            <a href='#portfolio' onClick={() => handlePageChange('Portfolio')}
+            <a href='#' onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} >Portfolio</a>
           </li>
           <li className="nav-item">

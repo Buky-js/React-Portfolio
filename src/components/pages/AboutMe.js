@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className="px-5 mt-3">
       <h1>About Me</h1>
       <p>
         I am a highly-motivated fullstack developer with a strong foundation in

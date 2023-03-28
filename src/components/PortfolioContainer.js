@@ -13,7 +13,7 @@ export default function PortfolioContainer() {
     if (currentPage === "About Me") {
       return <AboutMe />;
     }
-  };
+ 
   if (currentPage === "Portfolio") {
     return <Portfolio />;
   }
@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
   if (currentPage === "Resume") {
     return <Resume />;
   };
-
+}
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
