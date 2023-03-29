@@ -30,7 +30,7 @@ export default function App() {
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
-      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div> {renderPage} </div>
       <div>
         <Footer />
