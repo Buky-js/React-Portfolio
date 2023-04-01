@@ -17,7 +17,7 @@ export default function Navigation(props) {
         </li>
         <li className="nav-item">
           <a
-            href="#"
+            href="#portfolio"
             onClick={() => props.handlePageChange("Portfolio")}
             className={
               props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"
@@ -42,7 +42,7 @@ export default function Navigation(props) {
             href="#resume"
             onClick={() => props.handlePageChange("Resume")}
             className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
+              props.currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
           >
             Resume

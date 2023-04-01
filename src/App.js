@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import Header from "./Header";
-import AboutMe from "./pages/AboutMe";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
+import Header from "./components/Header";
+import AboutMe from "./components/pages/AboutMe";
+import Contact from "./components/pages/Contact";
+import Portfolio from "./components/pages/Portfolio";
+import Resume from "./components/pages/Resume";
+import Footer from "./components/Footer";
+
 
 // import PortfolioContainer from './components/PortfolioContainer';
 
@@ -31,7 +33,7 @@ export default function App() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div> {renderPage} </div>
+      <div> {renderPage()} </div>
       <div>
         <Footer />
       </div>
