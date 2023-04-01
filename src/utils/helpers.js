@@ -7,7 +7,7 @@ export function checkEmail(email){
     return check.test(String(email).toLowerCase())
 };
 
-export function checkBlank(item){
-    var check = /^\s*$/;
-    return check.test(String(item).toLowerCase());
-}
+// export function checkBlank(item){
+//     var check = /^\s*$/;
+//     return check.test(String(item).toLowerCase());
+// }
