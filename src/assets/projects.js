@@ -3,10 +3,11 @@ import fifa from "./images/fifa-world-cup.jpg";
 import weather from "./images/weather-dashboard.png";
 import quiz from "./images/timed-quiz.png";
 import pwdGen from "./images/pwd-gen.png";
-import codeEditor from "./images/codeEditor.jpg";
+import codeEditor from "./images/code-editor.jpg";
 
 const projects = [
     {
+        id: 1,
         name: 'Event-Time',
         src: events,
         alt: 'Event-time app',
@@ -14,6 +15,7 @@ const projects = [
         deployed: 'https://aqueous-plateau-28230.herokuapp.com'
     },
     {
+        id: 2,
         name: 'FIFA-Fever',
         src: fifa,
         alt: 'fifa-fever app',
@@ -21,6 +23,7 @@ const projects = [
         deployed: 'https://buky-js.github.io/FIFA-Fever/'  
     },
     {
+        id: 3,
         name: 'weather-dashboard',
         src: weather,
         alt: 'weather-dashboard app',
@@ -28,6 +31,7 @@ const projects = [
         deployed: 'https://buky-js.github.io/Weather-Dashboard/'  
     },
     {
+        id: 4,
         name: 'timed-quiz',
         src: quiz,
         alt: 'coding quiz app',
@@ -35,6 +39,7 @@ const projects = [
         deployed: 'https://buky-js.github.io/Timed-Quiz/'  
     },
     {
+        id: 5,
         name: 'password-generator',
         src: pwdGen,
         alt: 'password-generator app',
