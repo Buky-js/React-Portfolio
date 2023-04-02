@@ -6,7 +6,6 @@ import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import Footer from "./components/Footer";
 
-
 // import PortfolioContainer from './components/PortfolioContainer';
 
 export default function App() {
@@ -32,11 +31,13 @@ export default function App() {
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
-      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div> {renderPage()} </div>
-      <div>
-        <Footer />
-      </div>
+      <body className="d-flex flex-column min-vh-100">
+        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div className="wrapper flex-grow-1"> {renderPage()} </div>
+        <div>
+          <Footer />
+        </div>
+      </body>
     </div>
   );
 }

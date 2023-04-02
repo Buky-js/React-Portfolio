@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 
 export default function Project(props){
     return (
-<Card className="mb-3 col-5 me-4">
+<Card className="mb-3 col-5 me-3">
 <Card.Header> 
 <h4>{props.name}</h4>
 </Card.Header>

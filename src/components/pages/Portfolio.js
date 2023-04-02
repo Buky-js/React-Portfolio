@@ -6,7 +6,7 @@ import projects from "../../assets/projects";
 export default function Portfolio() {
   return (
     <div>
-      <Container className="p-4">
+      <Container className="p-4 text-center">
         <Row>
    {/* <CardGroup> */}
           {/* <Header page={"Portfolio"} /> */}

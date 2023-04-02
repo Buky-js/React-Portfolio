@@ -24,7 +24,7 @@ const projects = [
     },
     {
         id: 3,
-        name: 'weather-dashboard',
+        name: 'Weather Dashboard',
         src: weather,
         alt: 'weather-dashboard app',
         git: 'https://github.com/Buky-js/Weather-Dashboard',
@@ -32,7 +32,7 @@ const projects = [
     },
     {
         id: 4,
-        name: 'timed-quiz',
+        name: 'Timed Quiz',
         src: quiz,
         alt: 'coding quiz app',
         git: 'https://github.com/Buky-js/Timed-Quiz',
@@ -40,14 +40,15 @@ const projects = [
     },
     {
         id: 5,
-        name: 'password-generator',
+        name: 'Password Generator',
         src: pwdGen,
         alt: 'password-generator app',
         git: 'https://github.com/Buky-js/Password-Generator',
         deployed: 'https://buky-js.github.io/Password-Generator/'  
     },
     {
-        name: 'text-editor',
+        id: 6,
+        name: 'Text Editor',
         src: codeEditor,
         alt: 'text-editor app',
         git: 'https://github.com/Buky-js/PWA---Text-Editorr',
