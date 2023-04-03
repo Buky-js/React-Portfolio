@@ -1,6 +1,6 @@
 import React from "react";
 import myResume from "../../utils/MyResume.pdf";
-import { Container, Row, Col, Accordion, ListGroup, Button } from "react-bootstrap";
+import { Container, Row, Col, Accordion, ListGroup } from "react-bootstrap";
 import AccordionHeader from "react-bootstrap/esm/AccordionHeader";
 
 const proficiencies = [
@@ -55,6 +55,7 @@ export default function Resume() {
 					<Col className="text-center mb-3">
                     <a
             className="btn btn-primary"
+			style={{backgroundColor: '#264653'}}
             role="button"
             href={myResume}
             download="Olubukola_Abiona_Resume"

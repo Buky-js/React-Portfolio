@@ -11,6 +11,7 @@ export default function Navigation(props) {
             className={
               props.currentPage === "About Me" ? "nav-link active" : "nav-link"
             }
+            style={props.currentPage === "About Me" ? {backgroundColor: '#e9c46a'} : {color: 'white'} }
           >
             About Me
           </a>
@@ -22,6 +23,7 @@ export default function Navigation(props) {
             className={
               props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"
             }
+            style={props.currentPage === "Portfolio" ? {backgroundColor: '#e9c46a'} : {color: 'white'} }
           >
             Portfolio
           </a>
@@ -33,6 +35,7 @@ export default function Navigation(props) {
             className={
               props.currentPage === "Contact" ? "nav-link active" : "nav-link"
             }
+            style={props.currentPage === "Contact" ? {backgroundColor: '#e9c46a'} : {color: 'white'} }
           >
             Contact
           </a>
@@ -44,6 +47,8 @@ export default function Navigation(props) {
             className={
               props.currentPage === "Resume" ? "nav-link active" : "nav-link"
             }
+            style={props.currentPage === "Resume" ? {backgroundColor: '#e9c46a'} : {color: 'white'} }
+            
           >
             Resume
           </a>

@@ -68,7 +68,7 @@ export default function Contact() {
               <p>{errorMessage}</p>
             </div>
           )}
-          <button type="submit" className="btn btn-primary mt-2 ">
+          <button type="submit" className="btn btn-primary mt-2" style={{backgroundColor: '#264653'}}>
             Submit
           </button>
         </form>

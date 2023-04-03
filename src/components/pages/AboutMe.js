@@ -9,7 +9,7 @@ export default function AboutMe() {
         <Row>
           <Col>
             {" "}
-            <img src={mypic}></img>
+            <img src={mypic} alt="my face"></img>
           </Col>
           <Col>
             <div>

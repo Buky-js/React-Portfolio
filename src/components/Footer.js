@@ -1,11 +1,11 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 export default function Footer() {
   return (
     <footer
       className="text-center text-lg-start text-white mt-auto"
-      style={{ backgroundColor: "#45526e" }}
+      style={{backgroundColor: '#264653'}}
     >
       <div className="container">
         <section>
@@ -21,8 +21,9 @@ export default function Footer() {
 
             <div className="col text-center mt-2 mb-2">
               <a
-                className="btn btn-outline-light btn-floating m-1 text-white"
+                className="btn btn-outline-light btn-floating m-1 text-white" 
                 role="button"
+                href="https://github.com/Buky-js"
               >
                 <i className="fa fa-github"></i>
               </a>
@@ -30,6 +31,8 @@ export default function Footer() {
               <a
                 className="btn btn-outline-light btn-floating m-1 text-white"
                 role="button"
+                href="https://www.linkedin.com/in/olubukolaabiona
+                "
               >
                 <i className="fa fa-linkedin"></i>
               </a>
@@ -37,16 +40,17 @@ export default function Footer() {
               <a
                 className="btn btn-outline-light btn-floating m-1 text-white"
                 role="button"
+                href="https://twitter.com/BkayDev?t=2vc1OKCVdZeiHnIZqliHtw&s=09"
               >
-                <i className="fa fa-google"></i>
+                <i className="fa fa-twitter"></i>
               </a>
 
-              <a
+              {/* <a
                 className="btn btn-outline-light btn-floating m-1 text-white"
                 role="button"
               >
                 <i className="fa fa-instagram"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </section>
