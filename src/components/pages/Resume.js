@@ -62,7 +62,7 @@ export default function Resume() {
           >
             Download
           </a>
-						{/* <Button href={myResume}  download="Olubukola_Abiona_Resume">Download My Resume</Button> */}
+						
 					</Col>
 				</Row>
 				<Row>

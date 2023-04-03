@@ -8,7 +8,7 @@ export default function AboutMe() {
       <Container className="pt-3 pb-3">
         <Row>
           <Col>
-            {" "}
+           
             <img src={mypic} alt="my face"></img>
           </Col>
           <Col>

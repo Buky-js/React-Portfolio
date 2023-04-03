@@ -6,8 +6,6 @@ import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import Footer from "./components/Footer";
 
-// import PortfolioContainer from './components/PortfolioContainer';
-
 export default function App() {
   const [currentPage, setCurrentPage] = useState("About Me");
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-// import Card.Link from "react-bootstrap";
+
 
 export default function Project(props) {
   return (
