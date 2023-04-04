@@ -23,12 +23,11 @@ It contains an About Me page, Portfolio page, Contact page, and Resume page. The
 
 ## Installation
 
-The page can be viewed live at 
-To run it locally, clone the repo and run 'npm install' in the terminal. Launch the page with command 'npm start' and view it in the browser using the URL http://localhost:3000/
+The page can be viewed live at https://buky-js.github.io/my-react-portfolio/ . To run it locally, clone the repo and run 'npm install' in the terminal. Launch the page with command 'npm start' and view it in the browser using the URL http://localhost:3000/
 
 ## URLs
 
-The URL of the deployed application is: 
+The URL of the deployed application is: https://buky-js.github.io/my-react-portfolio/
 
 The URL of the GitHub repository containing the code is: https://github.com/Buky-js/react-portfolio
 
